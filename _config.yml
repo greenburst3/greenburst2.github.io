@@ -60,7 +60,7 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 plugins: ["jekyll/scholar"]
-"""
+
 scholar:
   last_name: Doe
   first_name: [John]
@@ -85,7 +85,7 @@ scholar:
 
   bibliography_list_attributes:
     reversed: "reversed"
-"""
+
 exclude:
   - Gemfile
   - Gemfile.lock
